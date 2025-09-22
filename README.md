@@ -1,5 +1,7 @@
 Strategic Mapping & Analysis Tool for Haiti
+
 Project Overview
+
 This project is the foundational work for a strategic mapping and multi-thematic analysis tool designed for humanitarian and development actors operating in Haiti. The primary objective is to create a robust data pipeline that integrates diverse datasets to provide a granular and up-to-date understanding of the food security landscape, cross-referenced with other critical variables like conflict, infrastructure, and humanitarian presence.
 
 This repository currently houses a Jupyter Notebook that performs the crucial Extract, Transform, Load (ETL) process, preparing disparate data sources for complex geospatial analysis. Although the project is a work in progress, this notebook represents the core engine of the intended final tool and demonstrates a scalable methodology for data harmonization.
