@@ -1,0 +1,11 @@
+pandas 
+numpy 
+matplotlib 
+seaborn 
+geopandas 
+fiona 
+contextily t
+qdm 
+thefuzz 
+sentence-transformers 
+torch statsmodels

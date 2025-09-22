@@ -1,0 +1,128 @@
+provider_admin1_name,provider_admin2_name,liv_name,adm1_final,adm1_1_final,adm2_final,adm2_1_final,lz_code1,lz_code2,lz_code3,Plotting_Level
+,,National,National,,,,,,,1
+,artibonite ht03,Artibonite HT03,Artibonite,Artibonite,,,HT03,HT03,HT03,3
+,artibonite ht04,Artibonite HT04,Artibonite,Artibonite,,,HT04,HT04,HT04,3
+,centre ht03,Centre HT03,Centre,Centre,,,HT03,HT03,HT03,3
+,grande anse ht07,Grande'Anse HT07,Grande'Anse,Grande'Anse,,,HT07,HT07,HT07,3
+,grande anse ht08,Grande'Anse HT08,Grande'Anse,Grande'Anse,,,HT08,HT08,HT08,3
+,la gonave & artibon ht01,La Gonave & Artibonite,Artibonite,West,Anse a Galets,Pointe a Raquette,HT01,HT01,HT01,3
+,nippes ht01,Nippes HT01,Nippes,Nippes,,,HT01,HT01,HT01,3
+,nippes ht07,Nippes HT07,Nippes,Nippes,,,HT07,HT07,HT07,3
+,nord est ht02,North-East HT02,North-East,North-East,,,HT02,HT02,HT02,3
+,nord ht02,North HT02,North,North,,,HT02,HT02,HT02,3
+,nord ouest ht01,North-West HT01,North-West,North-West,,,HT01,HT01,HT01,3
+,nord ouest ht02,North-West HT02,North-West,North-West,,,HT02,HT02,HT02,3
+,ouest ht05,West HT05,West,West,,,HT05,HT05,HT05,3
+,ouest ht06,West HT06,West,West,,,HT06,HT06,HT06,3
+,ouest ht07,West HT07,West,West,,,HT07,HT07,HT07,3
+,sud est ht01,South HT01,South,South,,,HT01,HT01,HT01,3
+,sud est ht07,South HT07,South,South,,,HT07,HT07,HT07,3
+,sud ht01,South HT01,South,South,,,HT01,HT01,HT01,3
+,sud ht07,South HT07,South,South,,,HT07,HT07,HT07,3
+,sud ht08,South HT08,South,South,,,HT08,HT08,HT08,3
+,ville de jérémie,Jeremie,Grande'Anse,Grande'Anse,Jeremie,Jeremie,HT08,HT08,HT08,4
+,ville des cayes,Les Cayes,South,South,Les Cayes,Les Cayes,HT07,HT07,HT07,4
+artibonite,,Artibonite,Artibonite,Artibonite,,,,,,2
+artibonite,artibonite ht01,Artibonite HT01,Artibonite,Artibonite,,,HT01,HT01,HT01,3
+artibonite,artibonite ht01 ht05,Artibonite HT01 HT05,Artibonite,Artibonite,,,HT01,HT05,HT05,3
+artibonite,artibonite ht01 ht05 ht08,Artibonite HT01 HT05 HT08,Artibonite,Artibonite,,,HT01,HT05,HT08,3
+artibonite,artibonite ht03,Artibonite HT03,Artibonite,Artibonite,,,HT03,HT03,HT03,3
+artibonite,artibonite ht04,Artibonite HT04,Artibonite,Artibonite,,,HT04,HT04,HT04,3
+artibonite,ville des gonaives,Gonaives,Artibonite,Artibonite,Gonaives,Gonaives,HT09,HT09,HT09,4
+carrefour,,Carrefour,West,West,Carrefour,Carrefour,HT07,HT07,HT07,4
+carrefour,ca1 ouest ht07,Carrefour HT07,West,West,Carrefour,Carrefour,HT07,HT07,HT07,4
+carrefour,ca2 ouest ht07,Carrefour HT07,West,West,Carrefour,Carrefour,HT07,HT07,HT07,4
+carrefour,ca3 ouest ht07,Carrefour HT07,West,West,Carrefour,Carrefour,HT07,HT07,HT07,4
+carrefour,carrefour p tp,Carrefour P_TP,West,West,Carrefour,Carrefour,HT07,HT07,HT07,4
+centre,,Centre,Centre,Centre,,,,,,2
+centre,bas plateau ht03,Centre Bas plateau HT03,Centre,Centre,,,HT03,HT03,HT03,3
+centre,centre ht03,Centre HT03,Centre,Centre,,,HT03,HT03,HT03,3
+centre,haut plateau ht03,Centre HT03,Centre,Centre,,,HT03,HT03,HT03,3
+centre,haut plateau ht04,Centre HT04,Centre,Centre,,,HT04,HT04,HT04,3
+cite soleil,,Cite Soleil,West,West,Cite Soleil,Cite Soleil,HT07,HT07,HT07,4
+cite soleil,cite soleil p tp,Cite Soleil Cite Soleil P_TP,West,West,Cite Soleil,Cite Soleil,HT07,HT07,HT07,4
+cité soleil,,Cite Soleil,West,West,Cite Soleil,Cite Soleil,HT07,HT07,HT07,4
+cité soleil,cs1 ouest ht07,Cite Soleil 1 HT07,West,West,Cite Soleil,Cite Soleil,HT07,HT07,HT07,4
+cité soleil,cs2 ouest ht07,Cite Soleil 2 HT07,West,West,Cite Soleil,Cite Soleil,HT07,HT07,HT07,4
+croix des bouquets,,Croix-Des-Bouquets,West,West,Croix-Des-Bouquets,Croix-Des-Bouquets,HT07,HT07,HT07,4
+croix des bouquets,croix de bouquet p tp,Croix-Des-Bouquets P_ TP,West,West,Croix-Des-Bouquets,Croix-Des-Bouquets,HT07,HT07,HT07,4
+croix des bouquets,cxb1 ouest ht07,Croix-Des-Bouquets  1 HT07,West,West,Croix-Des-Bouquets,Croix-Des-Bouquets,HT07,HT07,HT07,4
+croix des bouquets,cxb2 ouest ht07,Croix-Des-Bouquets  2 HT07,West,West,Croix-Des-Bouquets,Croix-Des-Bouquets,HT07,HT07,HT07,4
+croix des bouquets,cxb3 ouest ht07,Croix-Des-Bouquets  3 HT07,West,West,Croix-Des-Bouquets,Croix-Des-Bouquets,HT07,HT07,HT07,4
+delmas,,Delmas,West,West,Delmas,Delmas,HT09,HT09,HT09,4
+delmas,de1 zone métropolitaine,Delmas 1,West,West,Delmas,Delmas,HT09,HT09,HT09,4
+delmas,de2 zone métropolitaine,Delmas 2,West,West,Delmas,Delmas,HT09,HT09,HT09,4
+delmas,de3 zone métropolitaine,Delmas 3,West,West,Delmas,Delmas,HT09,HT09,HT09,4
+delmas,delmas p tp,Delmas P_TP,West,West,Delmas,Delmas,HT09,HT09,HT09,4
+grand anse,,Grande'Anse,Grande'Anse,Grande'Anse,,,,,,2
+grand anse,grande anse ht07,Grande'Anse HT07,Grande'Anse,Grande'Anse,,,HT07,HT07,HT07,3
+grand anse,grande anse ht08,Grande'Anse HT08,Grande'Anse,Grande'Anse,,,HT08,HT08,HT08,3
+grand anse,grande anse ht08 jérémie,Grande'Anse HT08,Grande'Anse,Grande'Anse,,,HT08,HT08,HT08,3
+grand anse,ville de jérémie,Jeremie,Grande'Anse,Grande'Anse,Jeremie,Jeremie,HT08,HT08,HT08,4
+grande anse,,Grande'Anse,Grande'Anse,Grande'Anse,,,,,,2
+grande anse,grande anse ht07,Grande'Anse HT07,Grande'Anse,Grande'Anse,,,HT07,HT07,HT07,3
+grande anse,grande anse ht08,Grande'Anse HT08,Grande'Anse,Grande'Anse,,,HT08,HT08,HT08,3
+nippes,,Nippes,Nippes,Nippes,,,,,,2
+nippes,nippes ht01,Nippes HT01,Nippes,Nippes,,,HT01,HT01,HT01,3
+nippes,nippes ht07,Nippes HT07,Nippes,Nippes,,,HT07,HT07,HT07,3
+nippes,nippes ht07 ht08,Nippes HT07 HT08,Nippes,Nippes,,,HT07,HT08,HT08,3
+nord,,North,North,North,,,,,,2
+nord,nord ht02,North HT02,North,North,,,HT02,HT02,HT02,3
+nord,nord ht02 ht03,North HT02 HT03,North,North,,,HT02,HT03,HT03,3
+nord,nord ht03,North HT03,North,North,,,HT03,HT03,HT03,3
+nord,ville du cap haitien,Cap-Haitien,North,North,Cap-Haitien,Cap-Haitien,HT09,HT09,HT09,4
+nord est,,North-East,North-East,North-East,,,,,,2
+nord est,nord est ht02,North-East HT02,North-East,North-East,,,HT02,HT02,HT02,3
+nord est,nord est ht02 ht03,North-East HT02 HT03,North-East,North-East,,,HT02,HT03,HT03,3
+nord est,ville de ouanaminthe,Ouanaminthe,North-East,North-East,Ouanaminthe,Ouanaminthe,HT02,HT02,HT02,4
+nord ouest,,North-West,North-West,North-West,,,,,,2
+nord ouest,nord ouest ht01,North-West HT01,North-West,North-West,,,HT01,HT01,HT01,3
+nord ouest,nord ouest ht02,North-West HT02,North-West,North-West,,,HT02,HT02,HT02,3
+others,,Camp de deplacement,National,,,,,,,1
+others,camp de deplacement,Camp de deplacement,National,,,,,,,1
+ouest,,West,West,,,,,,,2
+ouest,la gonave & artibon ht01,La Gonave & Artibonite,Artibonite,West,Anse a Galets,Pointe a Raquette,HT01,HT01,HT01,3
+ouest,ouest ht01 la gonave,West HT01,West,West,,,HT01,HT01,HT01,3
+ouest,ouest ht05,West HT05,West,West,,,HT05,HT05,HT05,3
+ouest,ouest ht06,West HT06,West,West,,,HT06,HT06,HT06,3
+ouest,ouest ht07,West HT07,West,West,,,HT07,HT07,HT07,3
+ouest,ouest ht07 ht03,West HT07 HT03,West,West,,,HT07,HT03,HT03,3
+petion ville,,Petion-Ville,West,West,Petion-Ville,Petion-Ville,HT07,HT07,HT07,4
+petion ville,petion ville p tp,Petion-Ville P_TP,West,West,Petion-Ville,Petion-Ville,HT07,HT07,HT07,4
+port au prince,,Port-au-Prince,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+port au prince,pap1 zone métropolitaine,ZMPAP Port-au-Prince 1,West,West,Port-au-Prince,Port-au-Prince ,HT09,HT09,HT09,4
+port au prince,pap2 zone métropolitaine,ZMPAP Port-au-Prince 2,West,West,Port-au-Prince,Port-au-Prince ,HT09,HT09,HT09,4
+port au prince,pap3 zone métropolitaine,ZMPAP Port-au-Prince 3,West,West,Port-au-Prince,Port-au-Prince ,HT09,HT09,HT09,4
+port au prince,port au prince p tp,Port-au-Prince P_TP,West,West,Port-au-Prince,Port-au-Prince ,HT09,HT09,HT09,4
+pétion ville,,Petion-Ville,West,West,Petion-Ville,Petion-Ville,HT07,HT07,HT07,4
+pétion ville,pv1 pv2 ouest ht07,Petion-Ville 1 and 2,West,West,Petion-Ville,Petion-Ville,HT07,HT07,HT07,4
+pétion ville,pv3 ouest ht07,Petion-Ville 3,West,West,Petion-Ville,Petion-Ville,HT07,HT07,HT07,4
+sud,,South,South,South,,,,,,2
+sud,sud ht01,South HT01,South,South,,,HT01,HT01,HT01,3
+sud,sud ht07,South HT07,South,South,,,HT07,HT07,HT07,3
+sud,sud ht08,South HT08,South,South,,,HT08,HT08,HT08,3
+sud,ville des cayes,Les Cayes,South,South,Les Cayes,Les Cayes,HT07,HT07,HT07,4
+sud est,,South-East,South-East,South-East,,,,,,2
+sud est,sud est ht01,South-East HT01,South-East,South-East,,,HT01,HT01,HT01,3
+sud est,sud est ht07,South-East HT07,South-East,South-East,,,HT07,HT07,HT07,3
+tabarre,,Tabarre,West,West,Tabarre,Tabarre,HT07,HT07,HT07,4
+tabarre,ta1 ta2 ouest ht07,Tabarre HT07,West,West,Tabarre,Tabarre,HT07,HT07,HT07,4
+tabarre,ta3 ouest ht07,Tabarre HT07,West,West,Tabarre,Tabarre,HT07,HT07,HT07,4
+tabarre,tabarre p tp,Tabarre P_TP,West,West,Tabarre,Tabarre,HT07,HT07,HT07,4
+zmpap,,ZMPAP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zmpap,camp de deplacement,ZMPAP Camp de deplacement,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zmpap,carrefour p tp,ZMPAP Carrefour_P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zmpap,cite soleil p tp,ZMPAP Cite Soleil P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zmpap,croix de bouquet p tp,ZMPAP Croix de Bouquet P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zmpap,delmas p tp,ZMPAP Delmas P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zmpap,petion ville p tp,Petion-Ville P_TP,West,West,Petion-Ville,Petion-Ville,HT07,HT07,HT07,4
+zmpap,port au prince p tp,Port-au-Prince P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zmpap,tabarre p tp,Tabarre P_TP,West,West,Tabarre,Tabarre,HT07,HT07,HT07,4
+zone métropolitaine,,ZMPAP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zone métropolitaine,carrefour p tp,Zone Métropolitaine Carrefour P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zone métropolitaine,cite soleil p tp,Zone Métropolitaine Cite Soleil P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zone métropolitaine,croix des bouquets p tp,ZMPAP Croix de Bouquet P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zone métropolitaine,delmas p tp,Zone Métropolitaine Delmas P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zone métropolitaine,petion ville p tp,Zone Métropolitaine Petion Ville P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zone métropolitaine,port au prince p tp,Port-au-Prince P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
+zone métropolitaine,tabarre p tp,Zone Métropolitaine Tabarre P_TP,West,West,Port-au-Prince,Port-au-Prince,HT09,HT09,HT09,4
