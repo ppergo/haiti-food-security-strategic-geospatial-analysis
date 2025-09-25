@@ -1,103 +1,68 @@
-Strategic Mapping & Analysis Tool for Haiti
+Advanced Predictive Modeling for Human Behavior Analysis
+A Portfolio Project Demonstrating Techniques Beyond a Standard Curriculum
 
-Project Overview
+[Project Status: Complete]
 
-This project is the foundational work for a strategic mapping and multi-thematic analysis tool designed for humanitarian and development actors operating in Haiti. The primary objective is to create a robust data pipeline that integrates diverse datasets to provide a granular and up-to-date understanding of the food security landscape, cross-referenced with other critical variables like conflict, infrastructure, and humanitarian presence.
+1. Strategic Context: From Corporate Data to Humanitarian Insight
+This project uses a classic "Employee Churn" dataset not as an end in itself, but as a methodological case study to demonstrate a transferable analytical framework. The core challenge—understanding and predicting human behavior based on structured data—is universal and directly applicable to critical questions in the humanitarian and development sectors.
 
-This repository currently houses a Jupyter Notebook that performs the crucial Extract, Transform, Load (ETL) process, preparing disparate data sources for complex geospatial analysis. Although the project is a work in progress, this notebook represents the core engine of the intended final tool and demonstrates a scalable methodology for data harmonization.
+The methodology developed here can be immediately adapted to:
 
-Target Audience: NGOs, UN Agencies, Foundations, and Researchers.
-Keywords: Haiti, Food Security, Data for Good, Geospatial Analysis, ETL, Strategic Planning.
+📈 Predict Vulnerability: The same techniques used to identify employees at risk of leaving can be used to model the risk of a household falling into food insecurity or a beneficiary dropping out of a livelihood program.
 
-🎯 Goal
-The ultimate aim is to develop a decision-support tool that allows users to:
+📊 Analyze Beneficiary Feedback: This project provides a blueprint for deep analysis of survey data (e.g., PDM, baseline/endline studies). It moves beyond simple descriptive statistics to uncover the complex drivers behind beneficiary satisfaction, program success, or failure.
 
-Visualize complex interactions between different thematic areas (e.g., how conflict events impact market prices).
+🎯 Optimize Resource Allocation: The ultimate goal of this analysis is to enable targeted interventions. This mirrors the core task of humanitarian targeting: using data to direct limited resources to the people who need them most, maximizing impact and efficiency.
 
-Identify geographic areas with overlapping vulnerabilities.
+2. Project Approach: Beyond the Google Analytics Certificate
+While this project utilizes the "Salifort Motors" dataset from the Google Advanced Analytics Certificate, it intentionally expands beyond the curriculum's scope to serve as a comprehensive portfolio piece. The analysis within the accompanying notebook showcases a more advanced and robust machine learning workflow, demonstrating proficiency in techniques critical for real-world applications.
 
-Monitor key indicators over time to inform programmatic and strategic planning.
+Key advanced elements featured in this analysis include:
 
-Generate data-driven insights for reports, proposals, and operational coordination.
+Statistical Hypothesis Testing in EDA: Applying formal statistical tests (e.g., Shapiro-Wilk, Levene's test, Mann-Whitney U test) to rigorously validate insights from data visualization, adding a layer of statistical certainty to the exploratory phase.
 
-✨ Core Features (Current State)
-The current notebook (Haiti.ipynb) fully automates the data preparation phase through a modular and reusable pipeline.
+Rapid Multi-Model Baselining: Using LazyClassifier to quickly evaluate the performance of over 20 classification algorithms, providing a data-driven foundation for model selection.
 
-1. Automated Data Ingestion
-Dynamic Loader: Automatically scans a specified directory and loads all relevant datasets, including .csv, ESRI Shapefiles (.shp), and entire Geodatabases (.gdb).
+Advanced Correlation Analysis: Employing libraries like Dython and Xicorpy to capture not only linear but also complex non-linear relationships between variables.
 
-Multi-Source Capability: Handles data from diverse sources like the Humanitarian Data Exchange (HDX), ACLED, and the World Food Programme.
+Sophisticated Imbalance Handling: Implementing techniques from the imbalanced-learn library to effectively address class imbalance, a common challenge that often degrades model performance.
 
-2. Intelligent Data Cleaning & Transformation
-ETL Functions: A suite of functions inspects, cleans, and standardizes both tabular and geospatial data.
+Performance Optimization: Leveraging the Intel® Extension for Scikit-learn (scikit-learn-intelex) to accelerate model training and prediction, demonstrating an awareness of computational efficiency.
 
-Metadata Removal: Automatically strips extraneous header/footer rows common in humanitarian datasets.
+Robust Feature Engineering and Hyperparameter Tuning: Going beyond basic feature creation to develop and test hypotheses, followed by systematic optimization of the chosen model (XGBoost).
 
-Type Conversion: Intelligently converts columns to appropriate numeric and date formats for analysis.
+3. Case Study Methodology: The PACE Framework
+The project follows the PACE (Plan, Analyze, Construct, Execute) framework, a structured methodology for data science projects.
 
-3. Geospatial Harmonization
-Canonical Geo-Table: Creates a unified, multi-level administrative boundary table (from ADM0 to ADM3) to serve as a single geographic reference. This solves common issues of inconsistent administrative boundaries across different datasets.
+PLAN: Project Scoping and Definition
 
-Automated Geo-referencing: Joins tabular data (e.g., conflict events, survey results) to the canonical geographic table using administrative "P-codes," making non-spatial data instantly mappable.
+Objective: Build and validate a machine learning model that accurately predicts employee churn, with a primary focus on maximizing Recall to minimize missed cases.
 
-🛠️ Methodology
-The process is structured around a clear ETL workflow:
+ANALYZE: Deep Data Exploration
 
-Extract: Datasets are loaded from their original formats into Pandas or GeoPandas DataFrames. The system is designed to be data-agnostic, easily incorporating new sources.
+This phase includes advanced data profiling, statistical validation, and creating visualizations to uncover deep-seated drivers of churn.
 
-Transform:
+CONSTRUCT: Advanced Model Development
 
-Inspection: Each dataset is profiled to identify its structure, data types, and missing values.
+This phase involves the advanced techniques mentioned above: multi-model evaluation, feature engineering, handling class imbalance, and fine-tuning high-performance models like XGBoost.
 
-Cleaning: Data is tidied for analysis (e.g., converting strings to numbers).
+EXECUTE: Reporting and Strategic Recommendations
 
-Standardization: All geographic data is re-projected to a common Coordinate Reference System (CRS) and linked via a master table of administrative boundaries.
+The final phase focuses on summarizing key findings, presenting the final model's performance, and providing actionable strategic recommendations to support proactive interventions.
 
-Load: The processed and harmonized datasets are stored in a structured dictionary, ready for the next phase of analysis and visualization.
-
-📊 Datasets Integrated
-The pipeline has been successfully tested with the following data types:
-
-Food Security: Food prices, household hunger indexes.
-
-Conflict & Security: ACLED conflict event data.
-
-Humanitarian Operations: 3W data (Who, What, Where).
-
-Socio-Economic: Relative Wealth Index.
-
-Infrastructure: Road networks (OpenStreetMap).
-
-Geospatial: Official administrative boundaries of Haiti.
-
-🚀 Next Steps & Future Vision
-This foundational ETL process is the first step. The project roadmap includes:
-
-Analysis Module: Developing a library of functions for advanced spatial analysis (e.g., hotspot analysis, accessibility modeling, correlation analysis).
-
-Interactive Dashboard: Building a web-based dashboard (using tools like Dash or Streamlit) to allow non-technical users to explore the data, create custom maps, and generate reports.
-
-Predictive Modeling: Incorporating time-series analysis and machine learning models to forecast trends in food security or identify areas at future risk.
-
-API Integration: Creating an API to serve the processed data to other applications or platforms.
-
-🔧 How to Use
-Clone the repository:
+4. Technical Implementation
+Installation
+The analysis leverages a powerful set of libraries. Ensure they are installed in your Python environment:
 
 Bash
 
-git clone [URL-del-tuo-repository]
-Install dependencies:
+pip install pandas numpy matplotlib seaborn lazypredict diptest dython xgboost scikit-learn-intelex imbalanced-learn xicorpy
+Usage
+Clone the repository or download the source files.
 
-Bash
+Ensure you have the HR_dataset.csv file in the same directory as the notebook.
 
-pip install pandas geopandas fiona contextily seaborn matplotlib thefuzz sentence-transformers
-Setup your environment:
+Open and run the ML Employee Churn Prediction.ipynb notebook in a Jupyter environment. The notebook is structured to guide you through the entire advanced workflow.
 
-Mount your Google Drive or specify the local path to your data folder within the notebook.
-
-Ensure your datasets are placed in the designated folder.
-
-Run the notebook Haiti.ipynb:
-
-Execute the cells sequentially to perform the full ETL process. The processed data will be available in the final dictionary object for further exploration.
+Results
+The primary success criterion for this project is the model's Recall score. The notebook details the process of building, training, and evaluating several classification models to identify the one that best minimizes False Negatives. The final model serves as a powerful and reliable tool for proactive retention, acting as a blueprint for similar intervention-focused models in other domains.
