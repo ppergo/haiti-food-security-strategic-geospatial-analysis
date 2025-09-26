@@ -1,68 +1,78 @@
-Advanced Predictive Modeling for Human Behavior Analysis
-A Portfolio Project Demonstrating Techniques Beyond a Standard Curriculum
+**Strategic Analysis & Decision-Support Engine for Humanitarian Response in Haiti**
 
-[Project Status: Complete]
+**The "Why" Behind This Project: A View from the Field**
 
-1. Strategic Context: From Corporate Data to Humanitarian Insight
-This project uses a classic "Employee Churn" dataset not as an end in itself, but as a methodological case study to demonstrate a transferable analytical framework. The core challenge—understanding and predicting human behavior based on structured data—is universal and directly applicable to critical questions in the humanitarian and development sectors.
+"As a Head of Base in complex emergencies, I always wanted a single tool that could unify the fragmented data I relied on for daily decisions: the latest security report, project progress, road accessibility, the presence of other actors, and local market prices. I needed a holistic view—a single, flexible, and easily accessible tool that could be integrated with new data on the fly."
 
-The methodology developed here can be immediately adapted to:
+This project is born from that need. It is my answer, developed with data science skills, to a critical operational challenge I faced firsthand for over a decade. The goal is not to create yet another dashboard, but to provide humanitarian managers with a strategic analysis engine: a tool that transforms raw, disconnected data into actionable intelligence for better, faster decision-making.
 
-📈 Predict Vulnerability: The same techniques used to identify employees at risk of leaving can be used to model the risk of a household falling into food insecurity or a beneficiary dropping out of a livelihood program.
+*While the initial focus is on Haiti, I have engineered the architecture to be modular and flexible, ready to be rapidly adapted to any other operational context.*
 
-📊 Analyze Beneficiary Feedback: This project provides a blueprint for deep analysis of survey data (e.g., PDM, baseline/endline studies). It moves beyond simple descriptive statistics to uncover the complex drivers behind beneficiary satisfaction, program success, or failure.
+**Project Goals: From Analysis to Action**
+This tool is designed to provide concrete answers for leaders and managers within NGOs and International Bodies.
 
-🎯 Optimize Resource Allocation: The ultimate goal of this analysis is to enable targeted interventions. This mirrors the core task of humanitarian targeting: using data to direct limited resources to the people who need them most, maximizing impact and efficiency.
+**For an NGO Program Manager or Country Director**:
+Create a "Living Map" of the Context:
 
-2. Project Approach: Beyond the Google Analytics Certificate
-While this project utilizes the "Salifort Motors" dataset from the Google Advanced Analytics Certificate, it intentionally expands beyond the curriculum's scope to serve as a comprehensive portfolio piece. The analysis within the accompanying notebook showcases a more advanced and robust machine learning workflow, demonstrating proficiency in techniques critical for real-world applications.
+Not a static map, but a dynamic, multi-layered view that integrates data on food security (IPC), market prices, conflict events, operational presence (3W), infrastructure, and socio-economic vulnerability.
 
-Key advanced elements featured in this analysis include:
+Identify Operational Gaps (Gap Analysis): 
 
-Statistical Hypothesis Testing in EDA: Applying formal statistical tests (e.g., Shapiro-Wilk, Levene's test, Mann-Whitney U test) to rigorously validate insights from data visualization, adding a layer of statistical certainty to the exploratory phase.
+By overlaying our operational presence with needs data, managers can instantly see which areas are most vulnerable and underserved, thereby guiding program strategy and resource allocation.
 
-Rapid Multi-Model Baselining: Using LazyClassifier to quickly evaluate the performance of over 20 classification algorithms, providing a data-driven foundation for model selection.
+Integrate Logistics and Security Planning: 
 
-Advanced Correlation Analysis: Employing libraries like Dython and Xicorpy to capture not only linear but also complex non-linear relationships between variables.
+Combine road network data with real-time conflict events to create dynamic access maps, which are critical for staff safety and operational continuity.
 
-Sophisticated Imbalance Handling: Implementing techniques from the imbalanced-learn library to effectively address class imbalance, a common challenge that often degrades model performance.
+**For International Bodies and Donors**:
+Allocate Funding Strategically:
 
-Performance Optimization: Leveraging the Intel® Extension for Scikit-learn (scikit-learn-intelex) to accelerate model training and prediction, demonstrating an awareness of computational efficiency.
+Analyze the correlations between different data layers to identify where an intervention can have the greatest impact, ensuring that funding is synergistic and well-targeted.
 
-Robust Feature Engineering and Hyperparameter Tuning: Going beyond basic feature creation to develop and test hypotheses, followed by systematic optimization of the chosen model (XGBoost).
+Build an Early Warning System:
 
-3. Case Study Methodology: The PACE Framework
-The project follows the PACE (Plan, Analyze, Construct, Execute) framework, a structured methodology for data science projects.
+Leverage the harmonized historical database to develop predictive models capable of forecasting a deterioration in food security, enabling a faster and more effective response.
 
-PLAN: Project Scoping and Definition
+**Technical Innovation for Humanitarian Action**
+I have applied advanced data science skills to solve practical, field-level problems.
 
-Objective: Build and validate a machine learning model that accurately predicts employee churn, with a primary focus on maximizing Recall to minimize missed cases.
+**Flexible & Automated Data Pipeline:**
 
-ANALYZE: Deep Data Exploration
+I built a dynamic data ingestion engine that automatically discovers and loads various formats (CSV, Shapefile, GeoDatabase). This flexibility allows for the integration of new datasets without any code changes, a crucial feature in contexts where data sources evolve rapidly.
 
-This phase includes advanced data profiling, statistical validation, and creating visualizations to uncover deep-seated drivers of churn.
+**Intelligent Geospatial Harmonization:**
 
-CONSTRUCT: Advanced Model Development
+The system creates a single, "canonical" geographic reference layer from multiple, often inconsistent sources. This guarantees the integrity and consistency of all spatial analysis.
 
-This phase involves the advanced techniques mentioned above: multi-model evaluation, feature engineering, handling class imbalance, and fine-tuning high-performance models like XGBoost.
+AI-Powered Semantic Georeferencing: The project's most innovative feature. Instead of relying on exact string matching (which often fails due to typos or abbreviations), I used a state-of-the-art AI model (sentence-transformer) to match locations based on their semantic meaning. This allows for a far more robust cleaning and harmonization of messy, real-world data.
 
-EXECUTE: Reporting and Strategic Recommendations
+**Modularity and Adaptability**
+While this project uses food security in Haiti as its central case study—integrating key contextual factors like security, road access, prices, wealth index, operational presence, and humanitarian needs—its core strength lies in its flexibility.
 
-The final phase focuses on summarizing key findings, presenting the final model's performance, and providing actionable strategic recommendations to support proactive interventions.
+The underlying code is designed to be thematic and country-agnostic. The entire data processing pipeline can be easily adapted for other countries or different humanitarian sectors (e.g., Health, WASH, Protection). Furthermore, the automated ETL process is built to seamlessly integrate new datasets, allowing any organization to incorporate its own internal data for a customized and even more powerful analysis.
 
-4. Technical Implementation
-Installation
-The analysis leverages a powerful set of libraries. Ensure they are installed in your Python environment:
+**Technical Stack**
+Data Analysis: pandas, numpy
 
-Bash
+Geospatial Processing: geopandas, fiona
 
-pip install pandas numpy matplotlib seaborn lazypredict diptest dython xgboost scikit-learn-intelex imbalanced-learn xicorpy
-Usage
-Clone the repository or download the source files.
+Natural Language Processing (NLP): sentence-transformers
 
-Ensure you have the HR_dataset.csv file in the same directory as the notebook.
+Visualization: matplotlib, seaborn
 
-Open and run the ML Employee Churn Prediction.ipynb notebook in a Jupyter environment. The notebook is structured to guide you through the entire advanced workflow.
+Environment: Python 3.12, Google Colab
 
-Results
-The primary success criterion for this project is the model's Recall score. The notebook details the process of building, training, and evaluating several classification models to identify the one that best minimizes False Negatives. The final model serves as a powerful and reliable tool for proactive retention, acting as a blueprint for similar intervention-focused models in other domains.
+**Project Status**
+The project is structured in distinct phases, providing a clear development roadmap.
+
+Phase 1: ETL & Data Harmonization - Completed
+The core data engineering pipeline is fully functional. This includes the automated ingestion of diverse data sources, the creation of a canonical geographic table, and the development of the AI-powered semantic matching engine.
+
+Phase 2: Data Cleaning & Preprocessing - Ongoing
+This phase involves applying the harmonization functions to the full range of loaded datasets and conducting in-depth cleaning to handle missing values, outliers, and inconsistencies identified during the initial loading.
+
+Phase 3: Exploratory Data Analysis (EDA) & Modeling - To-Do
+Future work will focus on performing detailed univariate and multivariate analysis to uncover insights and correlations. This phase will also include the development of predictive models for an early warning system.
+
+Phase 4: Interface & Dashboard Development - To-Do
+The final stage will be to develop an interactive and user-friendly dashboard (e.g., using Tableau, Power BI, or Dash) to make the analytical power of this engine accessible to non-technical end-users.
