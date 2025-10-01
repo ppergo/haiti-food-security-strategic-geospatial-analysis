@@ -76,7 +76,7 @@ Phase 2: Data Cleaning & Preprocessing - Ongoing
 This phase involves applying the harmonization functions to the full range of loaded datasets and conducting in-depth cleaning to handle missing values, outliers, and inconsistencies identified during the initial loading.
 
 Phase 3: Exploratory Data Analysis (EDA) & Modeling - To-Do
-Future work will focus on performing detailed univariate and multivariate analysis to uncover insights and correlations. This phase will also include the development of predictive models for an an early warning system.
+Future work will focus on performing detailed univariate and multivariate analysis to uncover insights and correlations. 
 
 Phase 4: Interface & Dashboard Development - To-Do
 The final stage will be to develop an interactive and user-friendly dashboard (e.g., using Tableau, Power BI, or Dash) to make the engine's analytical power accessible to non-technical end-users.
